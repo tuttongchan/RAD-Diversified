@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.hero-button {
+  padding: 1.2rem 2rem;
+  margin-bottom: 3rem;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(71, 180, 202);
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 1px solid rgb(71, 180, 202);
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.hero-button:hover {
+  background-color: #fff;
+  color: rgb(71, 180, 202);
+  border: 1px solid rgb(71, 180, 202);
+}
